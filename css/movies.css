@@ -1,0 +1,31 @@
+/* ==========================================
+   MOVIES HERO
+========================================== */
+
+.movies-hero{
+
+    padding:5rem 0;
+
+    text-align:center;
+
+}
+
+.movies-hero p{
+
+    max-width:700px;
+
+    margin:1.5rem auto 0;
+
+    color:var(--clr-muted);
+
+}
+
+/* ==========================================
+   MOVIE SECTIONS
+========================================== */
+
+.movie-section{
+
+    padding-bottom:5rem;
+
+}

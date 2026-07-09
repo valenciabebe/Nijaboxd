@@ -1,0 +1,279 @@
+/* ==========================================
+   HERO SECTION
+========================================== */
+
+.hero{
+
+    padding:4rem 0;
+
+}
+
+.hero-container{
+
+    width:min(92%, var(--max-width));
+
+    margin:auto;
+
+    display:grid;
+
+    gap:3rem;
+
+    align-items:center;
+
+}
+
+.hero-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:1.5rem;
+
+}
+
+.hero-tagline{
+
+    color:var(--clr-accent);
+
+    font-weight:700;
+
+    letter-spacing:.08em;
+
+    text-transform:uppercase;
+
+}
+
+.hero h1{
+
+    font-family:var(--font-heading);
+
+    font-size:clamp(2.5rem,5vw,4.5rem);
+
+    line-height:1.1;
+
+}
+
+.hero-description{
+
+    color:var(--clr-muted);
+
+    max-width:40rem;
+
+}
+
+.hero-actions{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:1rem;
+
+}
+
+/* Shared Button Styles */
+
+.btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:.9rem 1.6rem;
+
+    border-radius:999px;
+
+    font-family:var(--font-heading);
+
+    font-weight:600;
+
+    transition:var(--transition);
+
+}
+
+.btn-primary{
+
+    background:var(--clr-primary);
+
+    color:var(--clr-text);
+
+}
+
+.btn-primary:hover{
+
+    background:var(--clr-primary-light);
+
+}
+
+.btn-secondary{
+
+    border:2px solid var(--clr-accent);
+
+    color:var(--clr-accent);
+
+}
+
+.btn-secondary:hover{
+
+    background:var(--clr-accent);
+
+    color:var(--clr-bg);
+
+}
+
+/* Hero Visual */
+
+.hero-visual img{
+
+    width:100%;
+
+    border-radius:var(--radius);
+
+    box-shadow:var(--shadow);
+
+    object-fit:cover;
+
+}
+
+/* ==========================================
+   FEATURED COLLECTION
+========================================== */
+
+.featured-collection {
+    padding: 5rem 0;
+}
+
+.section-container {
+    width: min(92%, var(--max-width));
+    margin: 0 auto;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-tag {
+    color: var(--clr-accent);
+    font-family: var(--font-heading);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.75rem;
+}
+
+.section-header h2 {
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 1rem;
+}
+
+.section-description {
+    max-width: 650px;
+    margin: 0 auto;
+    color: var(--clr-muted);
+}
+
+.movie-grid {
+    display: grid;
+    gap: 2rem;
+}
+
+
+/* ==========================================
+   FEATURED REVIEWS
+========================================== */
+
+.featured-reviews {
+    padding: 5rem 0;
+}
+
+.reviews-grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.review-card {
+    background: var(--clr-surface);
+    border: 1px solid var(--clr-border);
+    border-radius: var(--radius);
+    padding: 2rem;
+    transition: var(--transition);
+}
+
+.review-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow);
+}
+
+.reviewer-name {
+    font-family: var(--font-heading);
+    margin-bottom: 0.5rem;
+}
+
+.review-rating {
+    color: var(--clr-accent);
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.review-text {
+    color: var(--clr-muted);
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+
+.review-movie {
+    font-size: 0.95rem;
+}
+
+/* ==========================================
+   JOIN COMMUNITY
+========================================== */
+
+.join-community{
+
+    padding:5rem 0;
+
+    text-align:center;
+
+}
+
+.community-text{
+
+    max-width:650px;
+
+    margin:1.5rem auto 2rem;
+
+    color:var(--clr-muted);
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+@media (min-width: 600px) {
+    .movie-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width:768px){
+
+    .hero-container{
+        grid-template-columns:1.1fr .9fr;
+    }
+
+    .reviews-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+@media (min-width: 992px) {
+    .movie-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

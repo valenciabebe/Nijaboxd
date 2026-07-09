@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Movies | NaijaBoxd</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/movies.css">
+
+</head>
+
+<body>
+     <!-- ==========================================
+         Site Header
+    =========================================== -->
+
+    <header class="site-header">
+
+        <div class="header-container">
+
+            <!-- ======================
+                 Brand Logo
+            ======================= -->
+
+            <a href="index.html" class="logo" aria-label="NaijaBoxd Home">
+
+                <i class="fa-solid fa-clapperboard"></i>
+
+                <span>NaijaBoxd</span>
+
+            </a>
+
+
+            <!-- ====================================
+                 Mobile Navigation Toggle
+            ===================================== -->
+
+            <input
+                type="checkbox"
+                id="nav-toggle"
+                class="nav-toggle"
+                aria-label="Toggle Navigation Menu"
+            >
+
+            <label
+                for="nav-toggle"
+                class="hamburger"
+                aria-hidden="true"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+
+            <!-- ======================
+                 Main Navigation
+            ======================= -->
+
+            <nav
+                class="main-navigation"
+                aria-label="Primary Navigation"
+            >
+
+                <ul class="nav-list">
+
+                    <li>
+                        <a href="index.html" class="active">
+                            Home
+                        </a>
+                    </li>
+
+                    <!-- Movies Dropdown -->
+
+                    <li class="dropdown">
+
+                        <a href="movies.html">
+                            Movies
+                        </a>
+
+                        <ul
+                            class="dropdown-menu"
+                            aria-label="Movie Categories"
+                        >
+
+                            <li>
+                                <a href="movies.html#trending">
+                                    Trending
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="movies.html#loved-classics">
+                                    Loved Classics
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="movies.html#nollywood-classics">
+                                    Nollywood Classics
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <li>
+                        <a href="reviews.html">
+                            Reviews
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                    <li>
+
+                        <a
+                            href="signup.html"
+                            class="signup-btn"
+                        >
+                            Sign Up
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- =====================================
+             Movies Hero
+        ====================================== -->
+
+        <section class="movies-hero">
+
+            <div class="section-container">
+
+                <h1>
+                    Discover Nollywood Movies
+                </h1>
+
+                <p>
+                    Browse today's biggest hits, beloved classics and timeless
+                    Nigerian stories that continue to inspire audiences.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- =====================================
+             Trending
+        ====================================== -->
+
+        <section id="trending" class="movie-section">
+
+            <div class="section-container">
+
+                <header class="section-header">
+
+                    <h2>Trending</h2>
+
+                    <p>
+                        The movies everyone is talking about right now.
+                    </p>
+
+                </header>
+
+                <div class="movie-grid">
+
+                    <!-- Movie Card 1 -->
+
+                    <article class="movie-card">
+
+                        <figure class="movie-poster">
+
+                            <img
+                                src="images/posters/COML.jpg"
+                                alt="Call of My Life movie poster"
+                            >
+
+                            <span class="movie-rating">
+                                ★ 10
+                            </span>
+
+                        </figure>
+
+                        <div class="movie-info">
+
+                            <h3 class="movie-title">
+                                Call of My Life
+                            </h3>
+
+                            <p class="movie-meta">
+                                2026 • Romance • Drama
+                            </p>
+
+                            <a href="#" class="movie-link">
+                                View Details →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Movie Card 2 -->
+
+                    <article class="movie-card">
+
+                        <figure class="movie-poster">
+
+                            <img
+                                src="images/posters/Aba-Blues.jpg"
+                                alt="Aba-Blues-movie-poster"
+                            >
+
+                            <span class="movie-rating">
+                                ★ 8.5
+                            </span>
+
+                        </figure>
+
+                        <div class="movie-info">
+
+                            <h3 class="movie-title">
+                                Aba Blues
+                            </h3>
+
+                            <p class="movie-meta">
+                                2026 • Drama
+                            </p>
+
+                            <a href="#" class="movie-link">
+                                View Details →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Movie Card 3 -->
+
+                    <article class="movie-card">
+
+                        <figure class="movie-poster">
+
+                            <img
+                                src="images/posters/bloodsisters.jfif"
+                                alt="Blood Sisters 2 movie poster"
+                            >
+
+                            <span class="movie-rating">
+                                ★ 8.9
+                            </span>
+
+                        </figure>
+
+                        <div class="movie-info">
+
+                            <h3 class="movie-title">
+                                Blood Sisters 2
+                            </h3>
+
+                            <p class="movie-meta">
+                                2026 • Drama • Crime • Soap Opera
+                            </p>
+
+                            <a href="#" class="movie-link">
+                                View Details →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Movie Card 4 -->
+
+                    <article class="movie-card">
+
+                        <figure class="movie-poster">
+
+                            <img
+                                src="images/posters/TKM.jpg"
+                                alt="To Kill a Monkey movie poster"
+                            >
+
+                            <span class="movie-rating">
+                                ★ 10
+                            </span>
+
+                        </figure>
+
+                        <div class="movie-info">
+
+                            <h3 class="movie-title">
+                                To Kill a Monkey
+                            </h3>
+
+                            <p class="movie-meta">
+                                2025 • Crime
+                            </p>
+
+                            <a href="#" class="movie-link">
+                                View Details →
+                            </a>
+
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================================
+             Loved Classics
+        ====================================== -->
+
+        <section
+            id="loved-classics"
+            class="movie-section"
+        >
+
+            <div class="section-container">
+
+                <header class="section-header">
+
+                    <h2>
+                        Loved Classics
+                    </h2>
+
+                    <p>
+
+                        Iconic films loved by generations of movie lovers.
+
+                    </p>
+
+                </header>
+
+                <div class="movie-grid">
+
+                    <!-- Movie Card 1 -->
+
+                    <article class="movie-card">
+
+                        <figure class="movie-poster">
+
+                            <img
+                                src="images/posters/Namaste-wahala.jpg"
+                                alt="Namaste-wahala movie poster"
+                            >
+
+                            <span class="movie-rating">
+                                ★ 8.8
+                            </span>
+
+                        </figure>
+
+                        <div class="movie-info">
+
+                            <h3 class="movie-title">
+                                Namaste Wahala
+                            </h3>
+
+                            <p class="movie-meta">
+                                2021 • Drama  • Romance
+                            </p>
+
+                            <a href="#" class="movie-link">
+                                View Details →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Movie Card 2 -->
+
+                    <article class="movie-card">
+
+                        <figure class="movie-poster">
+
+                            <img
+                                src="images/posters/Sugarrushposter2.jpg"
+                                alt="Sugar Rush poster"
+                            >
+
+                            <span class="movie-rating">
+                                ★ 6.0
+                            </span>
+
+                        </figure>
+
+                        <div class="movie-info">
+
+                            <h3 class="movie-title">
+                                Sugar Rush
+                            </h3>
+
+                            <p class="movie-meta">
+                                2019 • Comedy • Action
+                            </p>
+
+                            <a href="#" class="movie-link">
+                                View Details →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Movie Card 3 -->
+
+                    <article class="movie-card">
+
+                        <figure class="movie-poster">
+
+                            <img
+                                src="images/posters/WeddingParty.jpg"
+                                alt="Wedding Party movie poster"
+                            >
+
+                            <span class="movie-rating">
+                                ★ 8.5
+                            </span>
+
+                        </figure>
+
+                        <div class="movie-info">
+
+                            <h3 class="movie-title">
+                                Wedding Party
+                            </h3>
+
+                            <p class="movie-meta">
+                                2016 • Romance • Comedy
+                            </p>
+
+                            <a href="#" class="movie-link">
+                                View Details →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Movie Card 4 -->
+
+                    <article class="movie-card">
+
+                        <figure class="movie-poster">
+
+                            <img
+                                src="images/posters/Chief-Daddy.jpg"
+                                alt="Chief Daddy movie poster"
+                            >
+
+                            <span class="movie-rating">
+                                ★ 5.3
+                            </span>
+
+                        </figure>
+
+                        <div class="movie-info">
+
+                            <h3 class="movie-title">
+                                Chief Daddy
+                            </h3>
+
+                            <p class="movie-meta">
+                                2023 • Comedy
+                            </p>
+
+                            <a href="#" class="movie-link">
+                                View Details →
+                            </a>
+
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- =====================================
+             Nollywood Classics
+        ====================================== -->
+
+        <section
+            id="nollywood-classics"
+            class="movie-section"
+        >
+
+            <div class="section-container">
+
+                <header class="section-header">
+
+                    <h2>
+                        Nollywood Classics
+                    </h2>
+
+                    <p>
+
+                        Celebrate the films that shaped Nigerian cinema.
+
+                    </p>
+
+                </header>
+
+                <div class="movie-grid">
+
+                    <!-- Movie Card 1 -->
+
+                    <article class="movie-card">
+
+                        <figure class="movie-poster">
+
+                            <img
+                                src="images/posters/Osuofia.jfif"
+                                alt="Breath of Life movie poster"
+                            >
+
+                            <span class="movie-rating">
+                                ★ 8.8
+                            </span>
+
+                        </figure>
+
+                        <div class="movie-info">
+
+                            <h3 class="movie-title">
+                                Osuofia in London
+                            </h3>
+
+                            <p class="movie-meta">
+                                2003 • Drama
+                            </p>
+
+                            <a href="#" class="movie-link">
+                                View Details →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Movie Card 2 -->
+
+                    <article class="movie-card">
+
+                        <figure class="movie-poster">
+
+                            <img
+                                src="images/posters/anilulapo-final.jpg"
+                                alt="Aníkúlápó movie poster"
+                            >
+
+                            <span class="movie-rating">
+                                ★ 8.6
+                            </span>
+
+                        </figure>
+
+                        <div class="movie-info">
+
+                            <h3 class="movie-title">
+                                Aníkúlápó
+                            </h3>
+
+                            <p class="movie-meta">
+                                2022 • Fantasy
+                            </p>
+
+                            <a href="#" class="movie-link">
+                                View Details →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Movie Card 3 -->
+
+                    <article class="movie-card">
+
+                        <figure class="movie-poster">
+
+                            <img
+                                src="images/posters/gangsoflasgidimain.jfif"
+                                alt="Gangs of Lagos movie poster"
+                            >
+
+                            <span class="movie-rating">
+                                ★ 8.4
+                            </span>
+
+                        </figure>
+
+                        <div class="movie-info">
+
+                            <h3 class="movie-title">
+                                Gangs of Lagos
+                            </h3>
+
+                            <p class="movie-meta">
+                                2023 • Crime
+                            </p>
+
+                            <a href="#" class="movie-link">
+                                View Details →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                    <!-- Movie Card 4 -->
+
+                    <article class="movie-card">
+
+                        <figure class="movie-poster">
+
+                            <img
+                                src="images/posters/black-book-main.jfif"
+                                alt="The Black Book movie poster"
+                            >
+
+                            <span class="movie-rating">
+                                ★ 8.3
+                            </span>
+
+                        </figure>
+
+                        <div class="movie-info">
+
+                            <h3 class="movie-title">
+                                The Black Book
+                            </h3>
+
+                            <p class="movie-meta">
+                                2023 • Thriller
+                            </p>
+
+                            <a href="#" class="movie-link">
+                                View Details →
+                            </a>
+
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+    <!-- ==========================================
+    Site Footer
+    ========================================== -->
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <!-- Brand -->
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo">
+
+                    <i class="fa-solid fa-clapperboard"></i>
+
+                    <span>NaijaBoxd</span>
+
+                </a>
+
+                <p>
+                    Celebrating Nollywood through movie discovery,
+                    reviews and community.
+                </p>
+
+            </div>
+
+            <!-- Quick Links -->
+
+            <nav
+                class="footer-nav"
+                aria-label="Footer Navigation"
+            >
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="movies.html">Movies</a></li>
+
+                    <li><a href="reviews.html">Reviews</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                    <li><a href="signup.html">Sign Up</a></li>
+
+                </ul>
+
+            </nav>
+
+            <!-- Socials -->
+
+            <div class="footer-social">
+
+                <h3>Follow Us</h3>
+
+                <div class="social-icons">
+
+                    <a href="#" aria-label="Facebook">
+
+                        <i class="fa-brands fa-facebook-f"></i>
+
+                    </a>
+
+                    <a href="#" aria-label="Instagram">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+                    <a href="#" aria-label="X">
+
+                        <i class="fa-brands fa-x-twitter"></i>
+
+                    </a>
+
+                    <a href="#" aria-label="YouTube">
+
+                        <i class="fa-brands fa-youtube"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+
+                &copy; 2026 NaijaBoxd. All rights reserved.
+
+            </p>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>
