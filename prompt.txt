@@ -1,0 +1,409 @@
+==============================================================
+                 PROMPT ENGINEERING DOCUMENTATION
+                         NaijaBoxd
+      A Responsive Nollywood Movie Discovery Website
+==============================================================
+
+Student: Kambilinachukwu Udeani
+
+Technologies Used
+-----------------
+• HTML5
+• Vanilla CSS
+• Mobile-First Responsive Design
+• Google Fonts
+• Font Awesome
+
+Development Approach
+--------------------
+This project was developed using an iterative prompt engineering (vibe engineering) workflow. Rather than generating the entire website at once, the website was built section-by-section. Each prompt focused on a specific component, allowing for continuous refinement, code review and design improvements before moving on to the next stage.
+
+==============================================================
+PROMPT 1
+PROJECT PLANNING & DESIGN DIRECTION
+==============================================================
+
+Prompt Used
+-----------
+
+Hey Chat, we are going to build NaijaBoxd frontend website using Semantic HTML and CSS on here. It is going to be an iterative process of prompting. We are taking a vibe engineering approach, so pay close attention to my prompts and add your own flair.
+
+We are building a responsive movie discovery website called NaijaBoxd.
+
+NaijaBoxd is dedicated to celebrating Nollywood films by helping users discover movies, browse collections and read reviews.
+
+The website should feel:
+
+• Modern
+• Cinematic
+• Elegant
+• Professional
+• Easy to navigate
+
+The design may take inspiration from modern movie discovery platforms, but it must have its own unique branding and identity.
+
+Technologies
+
+We'll use:
+
+• HTML5
+• Vanilla CSS only
+• Mobile-first responsive design
+
+No JavaScript.
+
+Website Pages
+
+The website will contain five pages:
+
+• Home (index.html)
+• Movies (movies.html)
+• Reviews (reviews.html)
+• Contact (contact.html)
+• Sign Up (signup.html)
+
+The Movies page will contain three sections:
+
+• Trending
+• Loved Classics
+• Nollywood Classics
+
+Development Rules
+
+• Build one section at a time.
+• Wait for my approval before moving to the next section.
+• Use semantic HTML.
+• Write clean, commented HTML and CSS.
+• Reuse components wherever possible.
+• Keep reusable styles in style.css.
+• Keep page-specific styles inside each page's CSS file.
+• Follow a mobile-first approach.
+
+Documentation
+
+After every completed prompt, update a running DDC documentation containing:
+
+• Prompt Used
+• Components Built
+• Design Decisions
+• Responsive Considerations
+• Technologies Used
+
+Do not generate any code yet.
+
+First, analyse the project, recommend the overall design direction, branding, typography and colour palette before we begin development.
+
+Sections / Components Produced
+------------------------------
+
+• Overall project analysis
+• Website architecture
+• Brand identity
+• Typography recommendations
+• Colour palette
+• Folder structure
+• Responsive development strategy
+• Reusable CSS strategy
+
+==============================================================
+PROMPT 2
+GLOBAL HEADER
+==============================================================
+
+Prompt Used
+-----------
+
+We've completed the project planning for NaijaBoxd, so let's start building the website one section at a time.
+
+We'll begin with the sticky header because it will be reused across every page.
+
+Create only the <head> and <header> sections for index.html.
+
+The header should include:
+
+• A creative NaijaBoxd logo using a Font Awesome icon and the text "NaijaBoxd".
+• Navigation links for Home, Movies, Reviews, Contact and Sign Up.
+• A Movies dropdown containing:
+    • Trending
+    • Loved Classics
+    • Nollywood Classics
+• A responsive mobile navigation using only HTML and CSS (checkbox hamburger menu).
+• Semantic HTML with meaningful comments.
+• Appropriate accessibility attributes.
+
+Place all reusable styles in style.css since they'll be shared across the entire website.
+
+Don't create index.css yet because we haven't started the Home page content.
+
+Use:
+
+• Space Grotesk for headings and the logo.
+• Manrope for body text.
+
+Create a premium dark theme using:
+
+• Deep Nigerian green
+• Warm gold accents
+• Charcoal background
+• Soft off-white text
+
+Before writing the code, briefly explain your design decisions.
+
+After the code, explain the responsiveness strategy and update the DDC documentation.
+
+Wait for my approval before building the Hero section.
+
+Sections / Components Produced
+------------------------------
+
+• HTML <head>
+• Sticky navigation bar
+• Website logo
+• Desktop navigation
+• Movies dropdown
+• Mobile hamburger navigation
+• Global reusable navigation styles
+
+==============================================================
+PROMPT 3
+HOME PAGE
+==============================================================
+
+Prompt Used
+-----------
+
+Create the Home page for NaijaBoxd using semantic HTML and mobile-first CSS.
+
+Build one section at a time beginning with the Hero section. Continue only after approval.
+
+The page should introduce users to NaijaBoxd as a premium Nollywood movie discovery platform.
+
+Sections / Components Produced
+------------------------------
+
+• Hero section
+• Featured Movies section
+• Why NaijaBoxd section
+• Call-to-Action section
+• Global footer
+• Homepage responsive layout
+
+==============================================================
+PROMPT 4
+MOVIES PAGE
+==============================================================
+
+Prompt Used
+-----------
+
+Create the Movies page for NaijaBoxd.
+
+The page should showcase Nollywood films using reusable movie cards and maintain the same design language as the Home page.
+
+Include the following sections:
+
+• Hero
+• Trending Movies
+• Loved Classics
+• Nollywood Classics
+
+Reuse the global header, footer and shared styling.
+
+Sections / Components Produced
+------------------------------
+
+• Movies hero
+• Trending Movies grid
+• Loved Classics section
+• Nollywood Classics section
+• Reusable movie cards
+• Responsive movie grid
+
+==============================================================
+PROMPT 5
+GLOBAL STYLESHEET REFACTOR
+==============================================================
+
+Prompt Used
+-----------
+
+Move all reusable styles into style.css.
+
+Only keep page-specific styling inside each page stylesheet.
+
+Ensure the project follows a true mobile-first architecture and uses reusable components consistently.
+
+Sections / Components Produced
+------------------------------
+
+• Refactored style.css
+• Global typography
+• Buttons
+• Navigation
+• Footer
+• Movie cards
+• Utility classes
+• CSS variables
+
+==============================================================
+PROMPT 6
+RESPONSIVE REVIEW
+==============================================================
+
+Prompt Used
+-----------
+
+Review the responsive architecture of the project.
+
+Explain the purpose of every media query.
+
+Ensure the project follows a proper mobile-first workflow using min-width media queries.
+
+Sections / Components Produced
+------------------------------
+
+• Responsive improvements
+• Mobile-first architecture
+• Improved layout consistency
+• Responsive navigation
+• Responsive grids
+
+==============================================================
+PROMPT 7
+REVIEWS PAGE
+==============================================================
+
+Prompt Used
+-----------
+
+Create a Reviews page for NaijaBoxd.
+
+The page should include:
+
+• Hero
+• Featured Review
+• Community Reviews
+• Call-to-Action
+
+Reuse the global header and footer.
+
+Sections / Components Produced
+------------------------------
+
+• Reviews hero
+• Featured review
+• Community review cards
+• CTA section
+• Responsive layout
+
+==============================================================
+PROMPT 8
+CONTACT PAGE
+==============================================================
+
+Prompt Used
+-----------
+
+Create a Contact page for NaijaBoxd.
+
+Include:
+
+• Hero section
+• Contact information
+• Contact form
+
+Reuse the site's global header and footer while maintaining the existing design language.
+
+Sections / Components Produced
+------------------------------
+
+• Contact hero
+• Contact information
+• Contact form
+• Responsive two-column layout
+
+==============================================================
+PROMPT 9
+SIGN UP PAGE
+==============================================================
+
+Prompt Used
+-----------
+
+Create a Sign Up page for NaijaBoxd.
+
+The page should encourage visitors to join the NaijaBoxd community.
+
+Include:
+
+• Hero section
+• Community benefits
+• Registration form
+
+Reuse global styles and maintain the website's branding.
+
+Sections / Components Produced
+------------------------------
+
+• Sign Up hero
+• Community benefits section
+• Registration form
+• Responsive layout
+
+==============================================================
+PROMPT 10
+FINAL ENGINEERING REVIEW
+==============================================================
+
+Prompt Used
+-----------
+
+Review the completed project to ensure consistency across all pages.
+
+Verify:
+
+• Semantic HTML
+• Accessibility
+• Responsive behaviour
+• Consistent branding
+• Reusable CSS
+• Professional code comments
+
+Sections / Components Produced
+------------------------------
+
+• Final UI refinements
+• Improved accessibility
+• Consistent spacing
+• Responsive consistency
+• Cleaner reusable CSS
+• Production-ready frontend website
+
+==============================================================
+FINAL PROJECT DELIVERABLES
+==============================================================
+
+HTML Files
+
+• index.html
+• movies.html
+• reviews.html
+• contact.html
+• signup.html
+
+CSS Files
+
+• style.css
+• index.css
+• movies.css
+• reviews.css
+• contact.css
+• signup.css
+
+==============================================================
+PROJECT SUMMARY
+==============================================================
+
+NaijaBoxd was developed through an iterative prompt engineering workflow. Each major section of the website was generated from carefully engineered prompts rather than a single comprehensive request. This approach enabled continuous refinement of the user interface, responsive design, accessibility, semantic HTML structure, reusable CSS architecture and overall user experience. The final result is a cohesive, mobile-first Nollywood movie discovery website that reflects both the intended design vision and the developer's personal style.
+
+========================== END ==============================

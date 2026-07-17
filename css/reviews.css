@@ -1,0 +1,139 @@
+/* ==========================================
+   REVIEWS HERO
+========================================== */
+
+.reviews-hero{
+
+    padding:5rem 0;
+
+    text-align:center;
+
+}
+
+.reviews-hero h1{
+
+    font-family:var(--font-heading);
+
+    font-size:clamp(2.2rem,5vw,4rem);
+
+    margin:1rem 0;
+
+}
+
+.reviews-hero p:last-child{
+
+    max-width:700px;
+
+    margin:auto;
+
+    color:var(--clr-muted);
+
+}
+
+/* ==========================================
+   FEATURED REVIEW
+========================================== */
+
+.featured-review{
+
+    padding-bottom:5rem;
+
+}
+
+.review-card{
+
+    background:var(--clr-surface);
+
+    border:1px solid var(--clr-border);
+
+    border-radius:var(--radius);
+
+    padding:2rem;
+
+}
+
+.review-card.featured{
+
+    border-left:6px solid var(--clr-accent);
+
+}
+
+.review-badge{
+
+    display:inline-block;
+
+    background:var(--clr-accent);
+
+    color:var(--clr-bg);
+
+    padding:.4rem .8rem;
+
+    border-radius:999px;
+
+    font-weight:700;
+
+    margin-bottom:1rem;
+
+}
+
+.review-meta{
+
+    color:var(--clr-muted);
+
+    margin:.8rem 0 1.2rem;
+
+}
+
+/* ==========================================
+   COMMUNITY REVIEWS
+========================================== */
+
+.community-reviews{
+
+    padding-bottom:5rem;
+
+}
+
+.review-grid{
+
+    display:grid;
+
+    gap:2rem;
+
+}
+
+/* ==========================================
+   CTA
+========================================== */
+
+.review-cta{
+
+    padding:5rem 0;
+
+    text-align:center;
+
+}
+
+.review-cta p{
+
+    margin:1rem auto 2rem;
+
+    max-width:600px;
+
+    color:var(--clr-muted);
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (min-width:768px){
+
+    .review-grid{
+
+        grid-template-columns:repeat(3,1fr);
+
+    }
+
+}

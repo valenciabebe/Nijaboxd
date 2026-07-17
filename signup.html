@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- ==========================================
+            Document Meta Information
+        =========================================== -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>NaijaBoxd | Discover Nollywood Movies</title>
+
+        <meta
+            name="description"
+            content="Discover Nollywood movies, browse curated collections, and read thoughtful reviews on NaijaBoxd."
+        >
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        >
+
+        <!-- Global Styles -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Local Styles -->
+        <link rel="stylesheet" href="css/signup.css">
+    </head>
+
+    <body>
+
+        <!-- ==========================================
+            Site Header
+        =========================================== -->
+
+        <header class="site-header">
+
+            <div class="header-container">
+
+                <!-- ======================
+                    Brand Logo
+                ======================= -->
+
+                <a href="index.html" class="logo">
+
+                    <i class="fa-solid fa-clapperboard"></i>
+                    <span>NaijaBoxd</span>
+                </a>
+
+
+                <!-- ====================================
+                    Mobile Navigation Toggle
+                ===================================== -->
+
+                <input
+                    type="checkbox"
+                    id="nav-toggle"
+                    class="nav-toggle"
+                    aria-label="Toggle Navigation Menu"
+                >
+
+                <label
+                    for="nav-toggle"
+                    class="hamburger"
+                    aria-hidden="true"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+
+                <!-- ======================
+                    Main Navigation
+                ======================= -->
+
+                <nav
+                    class="main-navigation"
+                    aria-label="Primary Navigation"
+                >
+
+                    <ul class="nav-list">
+
+                        <li>
+                            <a href="index.html" class="active">
+                                Home
+                            </a>
+                        </li>
+
+                        <!-- Movies Dropdown -->
+
+                        <li class="dropdown">
+
+                            <a href="movies.html">
+                                Movies
+                            </a>
+
+                            <ul class="dropdown-menu" aria-label="Movie Categories">
+
+                                <li>
+                                    <a href="movies.html#trending">
+                                        Trending
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="movies.html#loved-classics">
+                                        Loved Classics
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="movies.html#nollywood-classics">
+                                        Nollywood Classics
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+                        <li>
+                            <a href="reviews.html">
+                                Reviews
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">
+                                Contact
+                            </a>
+                        </li>
+
+                        <li>
+
+                            <a
+                                href="signup.html"
+                                class="signup-btn"
+                            >
+                                Sign Up
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+
+        </header>
+        <main>
+
+            <section class="signup-hero">
+
+                <div class="section-container">
+
+                    <p class="section-tag">
+
+                        Join NaijaBoxd
+
+                    </p>
+
+                    <h1>
+
+                        Become Part of Nigeria's Movie Community
+
+                    </h1>
+
+                    <p>
+
+                        Track your favourite Nollywood films, share reviews,
+                        build watchlists and connect with fellow movie lovers.
+
+                    </p>
+
+                </div>
+
+            </section>
+
+            <section class="signup-section">
+
+                <div class="section-container signup-layout">
+
+                    <div class="signup-benefits">
+
+                        <h2>
+
+                            Why Join?
+
+                        </h2>
+
+                        <ul>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Rate your favourite movies
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Build personal watchlists
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Write movie reviews
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                Discover trending Nollywood films
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <form class="signup-form">
+
+                        <div class="form-group">
+
+                            <label for="fullname">
+
+                                Full Name
+
+                            </label>
+
+                            <input
+                                type="text"
+                                id="fullname"
+                                placeholder="Enter your full name"
+                                required>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="email">
+
+                                Email Address
+
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="Enter your email"
+                                required>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="username">
+
+                                Username
+
+                            </label>
+
+                            <input
+                                type="text"
+                                id="username"
+                                placeholder="Choose a username"
+                                required>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="password">
+
+                                Password
+
+                            </label>
+
+                            <input
+                                type="password"
+                                id="password"
+                                placeholder="Create a password"
+                                required>
+
+                        </div>
+
+                        <button type="submit" class="signup-btn">
+
+                            Create Account
+
+                        </button>
+
+                    </form>
+
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

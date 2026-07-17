@@ -1,622 +1,617 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- ==========================================
-         Document Meta Information
-    =========================================== -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <!-- ==========================================
+            Document Meta Information
+        =========================================== -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>NaijaBoxd | Discover Nollywood Movies</title>
+        <title>NaijaBoxd | Discover Nollywood Movies</title>
 
-    <meta
-        name="description"
-        content="Discover Nollywood movies, browse curated collections, and read thoughtful reviews on NaijaBoxd."
-    >
+        <meta
+            name="description"
+            content="Discover Nollywood movies, browse curated collections, and read thoughtful reviews on NaijaBoxd."
+        >
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome -->
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    >
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        >
 
-    <!-- Global Styles -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Local Styles -->
-    <link rel="stylesheet" href="css/index.css">
-</head>
+        <!-- Global Styles -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Local Styles -->
+        <link rel="stylesheet" href="css/index.css">
+    </head>
 
-<body>
-
-    <!-- ==========================================
-         Site Header
-    =========================================== -->
-
-    <header class="site-header">
-
-        <div class="header-container">
-
-            <!-- ======================
-                 Brand Logo
-            ======================= -->
-
-            <a href="index.html" class="logo" aria-label="NaijaBoxd Home">
-
-                <i class="fa-solid fa-clapperboard"></i>
-
-                <span>NaijaBoxd</span>
-
-            </a>
-
-
-            <!-- ====================================
-                 Mobile Navigation Toggle
-            ===================================== -->
-
-            <input
-                type="checkbox"
-                id="nav-toggle"
-                class="nav-toggle"
-                aria-label="Toggle Navigation Menu"
-            >
-
-            <label
-                for="nav-toggle"
-                class="hamburger"
-                aria-hidden="true"
-            >
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-
-
-            <!-- ======================
-                 Main Navigation
-            ======================= -->
-
-            <nav
-                class="main-navigation"
-                aria-label="Primary Navigation"
-            >
-
-                <ul class="nav-list">
-
-                    <li>
-                        <a href="index.html" class="active">
-                            Home
-                        </a>
-                    </li>
-
-                    <!-- Movies Dropdown -->
-
-                    <li class="dropdown">
-
-                        <a href="movies.html">
-                            Movies
-                        </a>
-
-                        <ul
-                            class="dropdown-menu"
-                            aria-label="Movie Categories"
-                        >
-
-                            <li>
-                                <a href="movies.html#trending">
-                                    Trending
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="movies.html#loved-classics">
-                                    Loved Classics
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="movies.html#nollywood-classics">
-                                    Nollywood Classics
-                                </a>
-                            </li>
-
-                        </ul>
-
-                    </li>
-
-                    <li>
-                        <a href="reviews.html">
-                            Reviews
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="contact.html">
-                            Contact
-                        </a>
-                    </li>
-
-                    <li>
-
-                        <a
-                            href="signup.html"
-                            class="signup-btn"
-                        >
-                            Sign Up
-                        </a>
-
-                    </li>
-
-                </ul>
-
-            </nav>
-
-        </div>
-
-    </header>
-
-    <!-- ==========================================
-     Hero Section
-========================================== -->
-
-    <main>
-
-        <section class="hero">
-
-            <div class="hero-container">
-
-                <!-- Hero Content -->
-
-                <article class="hero-content">
-
-                    <p class="hero-tagline">
-                        Discover the Best of Nollywood
-                    </p>
-
-                    <h1>
-                        Celebrate Nigerian Cinema One Story at a Time.
-                    </h1>
-
-                    <p class="hero-description">
-                        NaijaBoxd is your home for discovering Nollywood films,
-                        browsing curated collections, and reading honest reviews
-                        from fellow movie lovers.
-                    </p>
-
-                    <div class="hero-actions">
-
-                        <a href="movies.html" class="btn btn-primary">
-                            Explore Movies
-                        </a>
-
-                        <a href="reviews.html" class="btn btn-secondary">
-                            Read Reviews
-                        </a>
-
-                    </div>
-
-                </article>
-
-                <!-- Hero Visual -->
-
-                <aside
-                    class="hero-visual"
-                    aria-label="Featured Nollywood Posters"
-                >
-
-                    <img
-                        src="images/featured-posters.jpg"
-                        alt="A collage of featured Nollywood movie posters"
-                    >
-
-                </aside>
-
-            </div>
-
-        </section>
+    <body>
 
         <!-- ==========================================
-            Featured Collection Section
-        ========================================== -->
+            Site Header
+        =========================================== -->
 
-        <section class="featured-collection" aria-labelledby="featured-heading">
+        <header class="site-header">
 
-            <div class="section-container">
+            <div class="header-container">
 
-                <header class="section-header">
-
-                    <p class="section-tag">
-                        Featured Collection
-                    </p>
-
-                    <h2 id="featured-heading">
-                        Must-Watch Nollywood Movies
-                    </h2>
-
-                    <p class="section-description">
-                        Explore some of the most talked-about Nollywood films, from
-                        emotional dramas to thrilling adventures and timeless classics.
-                    </p>
-
-                </header>
-
-                <div class="movie-grid">
-
-                    <!-- Movie Card 1 -->
-
-                    <article class="movie-card">
-
-                        <figure class="movie-poster">
-
-                            <img
-                                src="images/posters/Breath_of_Life_(2023).jpg"
-                                alt="Breath of Life movie poster"
-                            >
-
-                            <span class="movie-rating">
-                                ★ 8.8
-                            </span>
-
-                        </figure>
-
-                        <div class="movie-info">
-
-                            <h3 class="movie-title">
-                                Breath of Life
-                            </h3>
-
-                            <p class="movie-meta">
-                                2023 • Drama
-                            </p>
-
-                            <a href="#" class="movie-link">
-                                View Details →
-                            </a>
-
-                        </div>
-
-                    </article>
-
-                    <!-- Movie Card 2 -->
-
-                    <article class="movie-card">
-
-                        <figure class="movie-poster">
-
-                            <img
-                                src="images/posters/anilulapo-final.jpg"
-                                alt="Aníkúlápó movie poster"
-                            >
-
-                            <span class="movie-rating">
-                                ★ 8.6
-                            </span>
-
-                        </figure>
-
-                        <div class="movie-info">
-
-                            <h3 class="movie-title">
-                                Aníkúlápó
-                            </h3>
-
-                            <p class="movie-meta">
-                                2022 • Fantasy
-                            </p>
-
-                            <a href="#" class="movie-link">
-                                View Details →
-                            </a>
-
-                        </div>
-
-                    </article>
-
-                    <!-- Movie Card 3 -->
-
-                    <article class="movie-card">
-
-                        <figure class="movie-poster">
-
-                            <img
-                                src="images/posters/gangsoflasgidimain.jfif"
-                                alt="Gangs of Lagos movie poster"
-                            >
-
-                            <span class="movie-rating">
-                                ★ 8.4
-                            </span>
-
-                        </figure>
-
-                        <div class="movie-info">
-
-                            <h3 class="movie-title">
-                                Gangs of Lagos
-                            </h3>
-
-                            <p class="movie-meta">
-                                2023 • Crime
-                            </p>
-
-                            <a href="#" class="movie-link">
-                                View Details →
-                            </a>
-
-                        </div>
-
-                    </article>
-
-                    <!-- Movie Card 4 -->
-
-                    <article class="movie-card">
-
-                        <figure class="movie-poster">
-
-                            <img
-                                src="images/posters/black-book-main.jfif"
-                                alt="The Black Book movie poster"
-                            >
-
-                            <span class="movie-rating">
-                                ★ 8.3
-                            </span>
-
-                        </figure>
-
-                        <div class="movie-info">
-
-                            <h3 class="movie-title">
-                                The Black Book
-                            </h3>
-
-                            <p class="movie-meta">
-                                2023 • Thriller
-                            </p>
-
-                            <a href="#" class="movie-link">
-                                View Details →
-                            </a>
-
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <!-- ==========================================
-     Featured Reviews Section
-        ========================================== -->
-
-        <section class="featured-reviews" aria-labelledby="reviews-heading">
-
-            <div class="section-container">
-
-                <header class="section-header">
-
-                    <p class="section-tag">
-                        Community Reviews
-                    </p>
-
-                    <h2 id="reviews-heading">
-                        What Our Viewers Are Saying
-                    </h2>
-
-                    <p class="section-description">
-                        Read honest opinions from fellow Nollywood lovers and discover
-                        your next favourite movie.
-                    </p>
-
-                </header>
-
-                <div class="reviews-grid">
-
-                    <!-- Review Card 1 -->
-
-                    <article class="review-card">
-
-                        <h3 class="reviewer-name">
-                            Ada Nwosu
-                        </h3>
-
-                        <p class="review-rating">
-                            ★★★★★
-                        </p>
-
-                        <p class="review-text">
-                            "Breath of Life is beautifully written and emotionally
-                            powerful. One of the finest Nollywood films I've seen in
-                            years."
-                        </p>
-
-                        <p class="review-movie">
-                            <strong>Movie:</strong> Breath of Life
-                        </p>
-
-                    </article>
-
-                    <!-- Review Card 2 -->
-
-                    <article class="review-card">
-
-                        <h3 class="reviewer-name">
-                            Tunde Bello
-                        </h3>
-
-                        <p class="review-rating">
-                            ★★★★☆
-                        </p>
-
-                        <p class="review-text">
-                            "The Black Book kept me on the edge of my seat from start
-                            to finish. Brilliant performances all round."
-                        </p>
-
-                        <p class="review-movie">
-                            <strong>Movie:</strong> The Black Book
-                        </p>
-
-                    </article>
-
-                    <!-- Review Card 3 -->
-
-                    <article class="review-card">
-
-                        <h3 class="reviewer-name">
-                            Chiamaka Okafor
-                        </h3>
-
-                        <p class="review-rating">
-                            ★★★★★
-                        </p>
-
-                        <p class="review-text">
-                            "Aníkúlápó blends culture, storytelling and stunning visuals
-                            into an unforgettable cinematic experience."
-                        </p>
-
-                        <p class="review-movie">
-                            <strong>Movie:</strong> Aníkúlápó
-                        </p>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-        <!-- ==========================================
-            Join the Community Section
-        ========================================== -->
-
-        <section class="join-community" aria-labelledby="community-heading">
-
-            <div class="section-container">
-
-                <h2 id="community-heading">
-                    Join the NaijaBoxd Community
-                </h2>
-
-                <p class="community-text">
-                    Discover more Nollywood films, share your thoughts, and connect
-                    with fellow movie lovers. Create your free account today.
-                </p>
-
-                <a href="signup.html" class="btn btn-primary">
-                    Join Now
-                </a>
-
-            </div>
-        </section>
-    </main>
-
-    <!-- ==========================================
-    Site Footer
-    ========================================== -->
-
-    <footer class="site-footer">
-
-        <div class="footer-container">
-
-            <!-- Brand -->
-
-            <div class="footer-brand">
+                <!-- ======================
+                    Brand Logo
+                ======================= -->
 
                 <a href="index.html" class="logo">
 
                     <i class="fa-solid fa-clapperboard"></i>
-
                     <span>NaijaBoxd</span>
-
                 </a>
 
-                <p>
-                    Celebrating Nollywood through movie discovery,
-                    reviews and community.
-                </p>
+
+                <!-- ====================================
+                    Mobile Navigation Toggle
+                ===================================== -->
+
+                <input
+                    type="checkbox"
+                    id="nav-toggle"
+                    class="nav-toggle"
+                    aria-label="Toggle Navigation Menu"
+                >
+
+                <label
+                    for="nav-toggle"
+                    class="hamburger"
+                    aria-hidden="true"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+
+                <!-- ======================
+                    Main Navigation
+                ======================= -->
+
+                <nav
+                    class="main-navigation"
+                    aria-label="Primary Navigation"
+                >
+
+                    <ul class="nav-list">
+
+                        <li>
+                            <a href="index.html" class="active">
+                                Home
+                            </a>
+                        </li>
+
+                        <!-- Movies Dropdown -->
+
+                        <li class="dropdown">
+
+                            <a href="movies.html">
+                                Movies
+                            </a>
+
+                            <ul class="dropdown-menu" aria-label="Movie Categories">
+
+                                <li>
+                                    <a href="movies.html#trending">
+                                        Trending
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="movies.html#loved-classics">
+                                        Loved Classics
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="movies.html#nollywood-classics">
+                                        Nollywood Classics
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+                        <li>
+                            <a href="reviews.html">
+                                Reviews
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">
+                                Contact
+                            </a>
+                        </li>
+
+                        <li>
+
+                            <a
+                                href="signup.html"
+                                class="signup-btn"
+                            >
+                                Sign Up
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </nav>
 
             </div>
 
-            <!-- Quick Links -->
+        </header>
 
-            <nav
-                class="footer-nav"
-                aria-label="Footer Navigation"
-            >
+        <!-- ==========================================
+        Hero Section
+    ========================================== -->
 
-                <h3>Quick Links</h3>
+        <main>
 
-                <ul>
+            <section class="hero">
 
-                    <li><a href="index.html">Home</a></li>
+                <div class="hero-container">
 
-                    <li><a href="movies.html">Movies</a></li>
+                    <!-- Hero Content -->
 
-                    <li><a href="reviews.html">Reviews</a></li>
+                    <article class="hero-content">
 
-                    <li><a href="contact.html">Contact</a></li>
+                        <p class="hero-tagline">
+                            Discover the Best of Nollywood
+                        </p>
 
-                    <li><a href="signup.html">Sign Up</a></li>
+                        <h1>
+                            Celebrate Nigerian Cinema One Story at a Time.
+                        </h1>
 
-                </ul>
+                        <p class="hero-description">
+                            NaijaBoxd is your home for discovering Nollywood films,
+                            browsing curated collections, and reading honest reviews
+                            from fellow movie lovers.
+                        </p>
 
-            </nav>
+                        <div class="hero-actions">
 
-            <!-- Socials -->
+                            <a href="movies.html" class="btn btn-primary">
+                                Explore Movies
+                            </a>
 
-            <div class="footer-social">
+                            <a href="reviews.html" class="btn btn-secondary">
+                                Read Reviews
+                            </a>
 
-                <h3>Follow Us</h3>
+                        </div>
 
-                <div class="social-icons">
+                    </article>
 
-                    <a href="#" aria-label="Facebook">
+                    <!-- Hero Visual -->
 
-                        <i class="fa-brands fa-facebook-f"></i>
+                    <aside
+                        class="hero-visual"
+                        aria-label="Featured Nollywood Posters"
+                    >
+
+                        <img
+                            src="images/posters/Breath_of_Life_(2023).jpg"
+                            alt="A collage of featured Nollywood movie posters"
+                        >
+
+                    </aside>
+
+                </div>
+
+            </section>
+
+            <!-- ==========================================
+                Featured Collection Section
+            ========================================== -->
+
+            <section class="featured-collection" aria-labelledby="featured-heading">
+
+                <div class="section-container">
+
+                    <header class="section-header">
+
+                        <p class="section-tag">
+                            Featured Collection
+                        </p>
+
+                        <h2 id="featured-heading">
+                            Must-Watch Nollywood Movies
+                        </h2>
+
+                        <p class="section-description">
+                            Explore some of the most talked-about Nollywood films, from
+                            emotional dramas to thrilling adventures and timeless classics.
+                        </p>
+
+                    </header>
+
+                    <div class="movie-grid">
+
+                        <!-- Movie Card 1 -->
+
+                        <article class="movie-card">
+
+                            <figure class="movie-poster">
+
+                                <img
+                                    src="images/posters/Breath_of_Life_(2023).jpg"
+                                    alt="Breath of Life movie poster"
+                                >
+
+                                <span class="movie-rating">
+                                    ★ 8.8
+                                </span>
+
+                            </figure>
+
+                            <div class="movie-info">
+
+                                <h3 class="movie-title">
+                                    Breath of Life
+                                </h3>
+
+                                <p class="movie-meta">
+                                    2023 • Drama
+                                </p>
+
+                                <a href="#" class="movie-link">
+                                    View Details →
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                        <!-- Movie Card 2 -->
+
+                        <article class="movie-card">
+
+                            <figure class="movie-poster">
+
+                                <img
+                                    src="images/posters/anilulapo-final.jpg"
+                                    alt="Aníkúlápó movie poster"
+                                >
+
+                                <span class="movie-rating">
+                                    ★ 8.6
+                                </span>
+
+                            </figure>
+
+                            <div class="movie-info">
+
+                                <h3 class="movie-title">
+                                    Aníkúlápó
+                                </h3>
+
+                                <p class="movie-meta">
+                                    2022 • Fantasy
+                                </p>
+
+                                <a href="#" class="movie-link">
+                                    View Details →
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                        <!-- Movie Card 3 -->
+
+                        <article class="movie-card">
+
+                            <figure class="movie-poster">
+
+                                <img
+                                    src="images/posters/gangsoflasgidimain.jfif"
+                                    alt="Gangs of Lagos movie poster"
+                                >
+
+                                <span class="movie-rating">
+                                    ★ 8.4
+                                </span>
+
+                            </figure>
+
+                            <div class="movie-info">
+
+                                <h3 class="movie-title">
+                                    Gangs of Lagos
+                                </h3>
+
+                                <p class="movie-meta">
+                                    2023 • Crime
+                                </p>
+
+                                <a href="#" class="movie-link">
+                                    View Details →
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                        <!-- Movie Card 4 -->
+
+                        <article class="movie-card">
+
+                            <figure class="movie-poster">
+
+                                <img
+                                    src="images/posters/black-book-main.jfif"
+                                    alt="The Black Book movie poster"
+                                >
+
+                                <span class="movie-rating">
+                                    ★ 8.3
+                                </span>
+
+                            </figure>
+
+                            <div class="movie-info">
+
+                                <h3 class="movie-title">
+                                    The Black Book
+                                </h3>
+
+                                <p class="movie-meta">
+                                    2023 • Thriller
+                                </p>
+
+                                <a href="#" class="movie-link">
+                                    View Details →
+                                </a>
+
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==========================================
+        Featured Reviews Section
+            ========================================== -->
+
+            <section class="featured-reviews" aria-labelledby="reviews-heading">
+
+                <div class="section-container">
+
+                    <header class="section-header">
+
+                        <p class="section-tag">
+                            Community Reviews
+                        </p>
+
+                        <h2 id="reviews-heading">
+                            What Our Viewers Are Saying
+                        </h2>
+
+                        <p class="section-description">
+                            Read honest opinions from fellow Nollywood lovers and discover
+                            your next favourite movie.
+                        </p>
+
+                    </header>
+
+                    <div class="reviews-grid">
+
+                        <!-- Review Card 1 -->
+
+                        <article class="review-card">
+
+                            <h3 class="reviewer-name">
+                                Ada Nwosu
+                            </h3>
+
+                            <p class="review-rating">
+                                ★★★★★
+                            </p>
+
+                            <p class="review-text">
+                                "Breath of Life is beautifully written and emotionally
+                                powerful. One of the finest Nollywood films I've seen in
+                                years."
+                            </p>
+
+                            <p class="review-movie">
+                                <strong>Movie:</strong> Breath of Life
+                            </p>
+
+                        </article>
+
+                        <!-- Review Card 2 -->
+
+                        <article class="review-card">
+
+                            <h3 class="reviewer-name">
+                                Tunde Bello
+                            </h3>
+
+                            <p class="review-rating">
+                                ★★★★☆
+                            </p>
+
+                            <p class="review-text">
+                                "The Black Book kept me on the edge of my seat from start
+                                to finish. Brilliant performances all round."
+                            </p>
+
+                            <p class="review-movie">
+                                <strong>Movie:</strong> The Black Book
+                            </p>
+
+                        </article>
+
+                        <!-- Review Card 3 -->
+
+                        <article class="review-card">
+
+                            <h3 class="reviewer-name">
+                                Chiamaka Okafor
+                            </h3>
+
+                            <p class="review-rating">
+                                ★★★★★
+                            </p>
+
+                            <p class="review-text">
+                                "Aníkúlápó blends culture, storytelling and stunning visuals
+                                into an unforgettable cinematic experience."
+                            </p>
+
+                            <p class="review-movie">
+                                <strong>Movie:</strong> Aníkúlápó
+                            </p>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- ==========================================
+                Join the Community Section
+            ========================================== -->
+
+            <section class="join-community" aria-labelledby="community-heading">
+
+                <div class="section-container">
+
+                    <h2 id="community-heading">
+                        Join the NaijaBoxd Community
+                    </h2>
+
+                    <p class="community-text">
+                        Discover more Nollywood films, share your thoughts, and connect
+                        with fellow movie lovers. Create your free account today.
+                    </p>
+
+                    <a href="signup.html" class="btn btn-primary">
+                        Join Now
+                    </a>
+
+                </div>
+            </section>
+        </main>
+
+        <!-- ==========================================
+        Site Footer
+        ========================================== -->
+
+        <footer class="site-footer">
+
+            <div class="footer-container">
+
+                <!-- Brand -->
+
+                <div class="footer-brand">
+
+                    <a href="index.html" class="logo">
+
+                        <i class="fa-solid fa-clapperboard"></i>
+
+                        <span>NaijaBoxd</span>
 
                     </a>
 
-                    <a href="#" aria-label="Instagram">
+                    <p>
+                        Celebrating Nollywood through movie discovery,
+                        reviews and community.
+                    </p>
 
-                        <i class="fa-brands fa-instagram"></i>
+                </div>
 
-                    </a>
+                <!-- Quick Links -->
 
-                    <a href="#" aria-label="X">
+                <nav
+                    class="footer-nav"
+                    aria-label="Footer Navigation"
+                >
 
-                        <i class="fa-brands fa-x-twitter"></i>
+                    <h3>Quick Links</h3>
 
-                    </a>
+                    <ul>
 
-                    <a href="#" aria-label="YouTube">
+                        <li><a href="index.html">Home</a></li>
 
-                        <i class="fa-brands fa-youtube"></i>
+                        <li><a href="movies.html">Movies</a></li>
 
-                    </a>
+                        <li><a href="reviews.html">Reviews</a></li>
+
+                        <li><a href="contact.html">Contact</a></li>
+
+                        <li><a href="signup.html">Sign Up</a></li>
+
+                    </ul>
+
+                </nav>
+
+                <!-- Socials -->
+
+                <div class="footer-social">
+
+                    <h3>Follow Us</h3>
+
+                    <div class="social-icons">
+
+                        <a href="#" aria-label="Facebook">
+
+                            <i class="fa-brands fa-facebook-f"></i>
+
+                        </a>
+
+                        <a href="#" aria-label="Instagram">
+
+                            <i class="fa-brands fa-instagram"></i>
+
+                        </a>
+
+                        <a href="#" aria-label="X">
+
+                            <i class="fa-brands fa-x-twitter"></i>
+
+                        </a>
+
+                        <a href="#" aria-label="YouTube">
+
+                            <i class="fa-brands fa-youtube"></i>
+
+                        </a>
+
+                    </div>
 
                 </div>
 
             </div>
 
-        </div>
+            <div class="footer-bottom">
 
-        <div class="footer-bottom">
+                <p>
 
-            <p>
+                    &copy; 2026 NaijaBoxd. All rights reserved.
 
-                &copy; 2026 NaijaBoxd. All rights reserved.
+                </p>
 
-            </p>
+            </div>
 
-        </div>
-
-    </footer>
-</body>
+        </footer>
+    </body>
 </html>
